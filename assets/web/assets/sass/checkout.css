@@ -1,0 +1,515 @@
+.checkout .col-parent {
+    padding: 72px 44px 0 160px;
+}
+
+.checkout .col-parent.right {
+    padding: 72px 160px 0 44px;
+    background-color: #FFFAF1;
+    border-left: 1px solid #AAA39A;
+}
+
+.checkout .col-parent.right--bottom {
+    margin-top: 0;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+
+.checkout .col-parent.left--bottom {
+    padding-top: 0;
+}
+
+.checkout h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.checkout h6 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.checkout p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.checkout .btn--outline-primary {
+    padding: 16px 24px;
+    color: #42352E;
+    font-weight: 500;
+    border: 1px solid #42352E;
+    border-radius: 0;
+}
+
+.checkout .btn--primary {
+    background-color: #42352E;
+    color: #FFF;
+    border-radius: 0;
+    padding: 22px 32px;
+}
+
+.checkout .btn--primary a {
+    color: #FFF;
+}
+
+.checkout .card--nav {
+    width: 100%;
+    border-bottom: 1px solid #AAA39A;
+}
+
+.checkout .card--payment {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.checkout .card--contact {
+    border-bottom: 1px solid #AAA39A;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+
+.checkout .card--shipping {
+    border-bottom: 1px solid #AAA39A;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+
+.checkout .card--shipping .selected-shipping {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.28);
+    padding: 16px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkout .card--shipping .selected-shipping span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: 12px;
+}
+
+.checkout .card--shipping .selected-shipping span.shipping-price {
+    font-size: 12px;
+}
+
+.checkout .card--shipping .selected-shipping a {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.checkout .card--order-summary .order--summary {
+    border-bottom: 1px solid #AAA39A;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.checkout .card--order-summary .order--total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.checkout .card--order-summary .order--total h5 {
+    margin-bottom: 0;
+}
+
+.checkout .card--order-summary .order--total div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.checkout .card--order-summary .order--total div span {
+    font-size: 14px;
+    color: #8D8D8D;
+    margin-right: 4px;
+}
+
+.checkout .card--order-summary .order--total div h4 {
+    margin-bottom: 0;
+}
+
+.checkout .card--order-summary .order--voucher {
+    width: 100%;
+    padding: 14px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.checkout .card--order-summary .order--voucher p {
+    font-size: 14px;
+}
+
+.checkout .card--order-summary .order--voucher a {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.checkout .card--order-summary .order--coupon {
+    margin-bottom: 24px;
+}
+
+.checkout .card--order-summary .order--coupon div input {
+    padding: 14px 10px;
+    font-size: 14px;
+    border-radius: 0;
+    width: 65%;
+}
+
+.checkout .card--order-summary .order--coupon div button {
+    padding: 14px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #42352E;
+    color: #FFF;
+    width: 30%;
+}
+
+.checkout .card--order-summary .order--coupon .applied-coupon {
+    background-color: #F4F0EA;
+    padding: 14px 12px;
+}
+
+.checkout .card--order-summary .order--coupon .applied-coupon a {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.checkout .card--order-summary .order--coupon .applied-coupon p {
+    font-size: 14px;
+}
+
+.checkout .card--order-summary .order--coupon .applied-coupon p span {
+    font-weight: 500;
+}
+
+.checkout .card--order-summary .order--plan .plan--detail {
+    padding: 12px 0;
+    border-bottom: 1px solid #AAA39A;
+}
+
+.checkout .card--order-summary .order--plan .plan--products {
+    padding: 20px 0;
+    border-bottom: 1px dashed #AAA39A;
+}
+
+.checkout .card--order-summary .order--plan .plan--products h5 {
+    font-weight: 600;
+}
+
+.checkout .selected--shipping, .checkout .selected--method {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.28);
+    padding: 16px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkout .selected--shipping span, .checkout .selected--method span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: 12px;
+}
+
+.checkout .selected--shipping span.shipping-price, .checkout .selected--method span.shipping-price {
+    font-size: 12px;
+}
+
+.checkout .selected--shipping a, .checkout .selected--method a {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.checkout .modal .modal-dialog .modal-content .modal-header {
+    padding: 24px 40px;
+}
+
+.checkout .modal .modal-dialog .modal-content .modal-header h5 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.checkout .modal--select-address .modal-dialog {
+    width: 585px;
+}
+
+.checkout .modal--select-address .modal-dialog .modal-content .modal-body {
+    padding: 24px 40px;
+}
+
+.checkout .modal--select-address .modal-dialog .modal-content .modal-body a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.checkout .modal--add-edit-address .modal-dialog {
+    width: 585px;
+}
+
+.checkout .modal--add-edit-address .modal-dialog .modal-content .modal-body {
+    padding: 24px 40px;
+}
+
+.checkout .modal--add-edit-address .modal-dialog .modal-content .modal-body .input-wrapper label {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.checkout .modal--add-edit-address .modal-dialog .modal-content .modal-body .input-wrapper input {
+    width: 100%;
+    padding: 14px 12px;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.checkout .modal--change-shipping-method p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.checkout .modal--change-shipping-method h6 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.checkout .modal--change-shipping-method .modal-dialog {
+    width: 650px;
+}
+
+.checkout .modal--change-shipping-method .modal-dialog .modal-content .modal-body {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.checkout .modal--change-shipping-method .modal-dialog .modal-content .modal-body .text {
+    padding: 0 40px;
+}
+
+.checkout .modal--change-shipping-method .modal-dialog .modal-content .modal-body .shipping--card {
+    padding: 20px 40px;
+}
+
+.checkout .modal--change-shipping-method .modal-dialog .modal-content .modal-body .shipping--card.active {
+    background: #FAF4E6;
+}
+
+.checkout .modal--change-shipping-method .modal-dialog .modal-content .modal-body .shipping--card:hover {
+    background: #f9f7f2;
+}
+
+.checkout .modal--payment-method .modal-dialog {
+    min-width: 700px;
+}
+
+.checkout .modal--payment-method .modal-dialog .modal-content .modal-body {
+    padding: 24px 40px;
+}
+
+.checkout .modal--payment-method .modal-dialog .modal-content .modal-body .payment--list {
+    margin-bottom: 40px;
+}
+
+.checkout .modal--payment-method .modal-dialog .modal-content .modal-body .payment--card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 14px;
+}
+
+.checkout .modal--payment-method .modal-dialog .modal-content .modal-body .payment--card .form-check-input {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    margin-right: 8px;
+}
+
+.checkout .modal--payment-method .modal-dialog .modal-content .modal-body .payment--card .form-check-input:checked {
+    background-color: #42352E;
+    border-color: #42352E;
+}
+
+.checkout .modal--payment-method .modal-dialog .modal-content .modal-body .payment--card img {
+    height: 22px;
+}
+
+.checkout .modal--payment-method .modal-dialog .modal-content .modal-body .payment--card img.bri {
+    height: 44px;
+}
+
+.checkout .modal--payment-method .modal-dialog .modal-content .modal-body .payment--card-parent {
+    padding: 14px 12px;
+    background: #F9F9F9;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.checkout .modal--payment-method .modal-dialog .modal-content .modal-body .payment--card-parent .payment--card.checked {
+    background-color: #FFFAF4;
+    border: 1px solid #BAA183;
+}
+
+.checkout .modal--choose-voucher .modal-dialog {
+    min-width: 768px;
+}
+
+.checkout .modal--choose-voucher .modal-dialog .modal-content .modal-body {
+    padding: 24px 40px 38px 40px;
+}
+
+.checkout .modal--choose-voucher .modal-dialog .modal-content .modal-body .coupon--container {
+    position: relative;
+    width: 328px;
+    height: 239px;
+    margin: 0 auto;
+}
+
+.checkout .modal--choose-voucher .modal-dialog .modal-content .modal-body .coupon--mask {
+    filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.14)) drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.08));
+    width: 100%;
+}
+
+.checkout .modal--choose-voucher .modal-dialog .modal-content .modal-body img {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.checkout .modal--choose-voucher .modal-dialog .modal-content .modal-body .bottom-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+}
+
+.checkout .modal--choose-voucher .modal-dialog .modal-content .modal-body .bottom-text.disabled {
+    padding: 20px 16px;
+}
+
+.checkout .modal--choose-voucher .modal-dialog .modal-content .modal-body .bottom-text.disabled p {
+    margin-bottom: 0px;
+}
+
+.checkout .modal--choose-voucher .modal-dialog .modal-content .modal-body .bottom-text.disabled button {
+    color: rgba(66, 63, 46, 0.5);
+}
+
+.checkout .modal--choose-voucher .modal-dialog .modal-content .modal-body .bottom-text p {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.checkout .modal--choose-voucher .modal-dialog .modal-content .modal-body .bottom-text button {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+    .checkout .col-parent {
+        padding: 16px 28px;
+    }
+
+    .checkout .col-parent.right {
+        padding: 16px 28px;
+        border-left: none;
+        background-color: #FFF;
+    }
+
+    .checkout .col-parent.right--bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+        border: 1px solid rgba(100, 62, 41, 0.2);
+    }
+
+    .checkout .card--nav {
+        border-bottom: 0;
+    }
+
+    .checkout .card--payment {
+        border-bottom: 1px solid #AAA39A;
+    }
+
+    .checkout .card--order-summary .order--total div h4 {
+        margin-right: 10px;
+    }
+
+    .checkout .selected--shipping span.shipping-price, .checkout .selected--method span.shipping-price {
+        margin-right: 0;
+    }
+
+    .checkout .modal .modal-dialog {
+        margin: 0;
+        min-width: 100%;
+        max-width: 100%;
+        position: fixed;
+        top: auto;
+        right: auto;
+        left: auto;
+        bottom: 0;
+        min-height: auto;
+    }
+
+    .checkout .modal .modal-dialog .modal-content .modal-header {
+        padding: 16px;
+    }
+
+    .checkout .modal--select-address .modal-dialog {
+        width: 100%;
+    }
+
+    .checkout .modal--select-address .modal-dialog .modal-content .modal-body {
+        padding: 16px;
+    }
+
+    .checkout .modal--add-edit-address .modal-dialog {
+        width: 100%;
+    }
+
+    .checkout .modal--add-edit-address .modal-dialog .modal-content .modal-body {
+        padding: 16px;
+    }
+
+    .checkout .modal--change-shipping-method .modal-dialog {
+        width: 100%;
+    }
+
+    .checkout .modal--change-shipping-method .modal-dialog .modal-content .modal-body .text {
+        padding: 16px;
+    }
+
+    .checkout .modal--change-shipping-method .modal-dialog .modal-content .modal-body .shipping--card {
+        padding: 16px;
+    }
+
+    .checkout .modal--payment-method .modal-dialog {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .checkout .modal--payment-method .modal-dialog .modal-content .modal-body {
+        padding: 16px;
+    }
+
+    .checkout .modal--choose-voucher .modal-dialog {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .checkout .modal--choose-voucher .modal-dialog .modal-content .modal-body {
+        padding: 16px;
+    }
+}
+
+/*checkout.css*/

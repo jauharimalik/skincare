@@ -1,0 +1,1143 @@
+.account {
+    background: linear-gradient(180deg, #f8f5eb 0%, rgba(248, 245, 235, 0) 100%);
+    padding: 40px 60px;
+}
+
+.account p {
+    font-size: 14px;
+}
+
+.badge {
+    padding: 4px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.badge--primary {
+    background-color: #e5c17a;
+    color: #000;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+
+.badge--success {
+    background-color: #eef1ca;
+    color: #9eba6c;
+}
+
+.badge--danger {
+    background-color: #fff2e2;
+    color: #ff4141;
+}
+
+.badge--monochrome {
+    background-color: #fff;
+    color: #000;
+}
+
+.account .btn--chevron {
+    padding: 8px 4px;
+    margin-right: 12px;
+}
+
+.account .btn--ellipsis {
+    padding: 4px;
+    border-radius: 100%;
+    background-color: #eeece5;
+}
+
+.account .btn--primary {
+    padding: 22px 32px;
+    background-color: #42352e;
+    color: #fff;
+    border-radius: 0;
+}
+
+.account .btn--primary.cancel {
+    padding: 12px 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.account .btn--outline-danger {
+    padding: 12px 32px;
+    color: #dc3545;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid #dc3545;
+    border-radius: 0;
+    margin-bottom: 32px;
+}
+
+.account .btn--outline-primary {
+    padding: 22px 32px;
+    color: #42352e;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid #42352e;
+    border-radius: 0;
+    margin-bottom: 32px;
+}
+
+.account .btn--concern {
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ab9274;
+    border-radius: 0;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+
+.account .btn--concern.active {
+    background: #e8b94f;
+}
+
+.account .btn--concern:hover {
+    background: #e9c062;
+}
+
+.account .btn--concern img {
+    margin-right: 4px;
+}
+
+.account .btn--concern p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.39);
+}
+
+.account .profile--detail {
+    margin-bottom: 95px;
+}
+
+.account .profile--card {
+    background-color: #ece7d9;
+    padding: 0;
+    border-radius: 30px;
+}
+
+.account .profile--card h2 {
+    font-size: 32px;
+}
+
+.account .profile--card span {
+    color: #ab9274;
+    font-size: 14px;
+}
+
+.account .profile--card span.number-card {
+    font-family: "Electrolize", monospace;
+    font-size: 16px;
+}
+
+.account .profile--card-top {
+    padding: 32px;
+    padding-bottom: 75px;
+}
+
+.account .profile--card-bottom {
+    padding: 25px 40px;
+    background-color: #d1c7ae;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-end-start-radius: 30px;
+    border-end-end-radius: 30px;
+}
+
+.account .profile--card-bottom .points {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.account .profile--card-bottom .points span {
+    font-size: 12px;
+}
+
+.account .profile--card-point {
+    background-color: #faf4e6;
+    padding: 26px 20px;
+    margin-bottom: 32px;
+}
+
+.account .profile--card-point .range--container {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background-color: #eaeaea;
+    border-radius: 16px;
+}
+
+.account .profile--card-point .range--fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 8px;
+    background-color: #9eba6c;
+    border-radius: 16px;
+}
+
+.account .profile--card-point .range--marker {
+    position: absolute;
+    top: -24px;
+    left: 29%;
+    width: 32px;
+    height: 32px;
+}
+
+.account .profile--card-point span {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.account .profile--card-point p:last-child {
+    margin-bottom: 0;
+}
+
+.account .profile--copy-link {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.account .profile--copy-link:last-child {
+    margin-bottom: 0;
+}
+
+.account .profile--copy-link .label {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.account .profile--tabs {
+    display: flex;
+}
+
+.account .profile--tabs aside {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    margin-right: 26px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.account .profile--tabs aside button {
+    padding: 12px 30px 12px 0;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.account .profile--tabs aside button.active {
+    color: #000;
+}
+
+.account .profile--tabs aside button:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.account .profile--tab-value {
+    width: 100%;
+}
+
+.account .profile--tab-value .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.account .profile--tab-value .nav--profile-tabs {
+    justify-content: flex-start;
+}
+
+.account .profile--tab-value .nav--profile-tab {
+    font-size: 20px;
+    margin-right: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.account .profile--tab-value .nav--profile-tab:last-child {
+    margin-right: 0;
+}
+
+.account .profile--tab-value .nav--profile-tab.active {
+    color: #000;
+}
+
+.account .profile--tab-value .nav--profile-tab:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info {
+    padding: 22px 24px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info .detail-info .top,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .location .top,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .social-media .top,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .concern .top {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info .detail-info .top button,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .location .top button,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .social-media .top button,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .concern .top button {
+    padding: 0;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info .detail-info .top .divider,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .location .top .divider,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .social-media .top .divider,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .concern .top .divider {
+    height: 20px;
+    width: 1px;
+    background-color: #000;
+    margin: 0 8px;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info .detail-info .body,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .location .body,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .social-media .body,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .concern .body {
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info .detail-info .body .list-item,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .location .body .list-item,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .social-media .body .list-item,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .concern .body .list-item {
+    margin-bottom: 12px;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info .detail-info .body .list-item:last-child,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .location .body .list-item:last-child,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .social-media .body .list-item:last-child,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .concern .body .list-item:last-child {
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info .detail-info .body .concern,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .location .body .concern,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .social-media .body .concern,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .concern .body .concern {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info .detail-info .body .concern--skin,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .location .body .concern--skin,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .social-media .body .concern--skin,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .concern .body .concern--skin {
+    max-width: 600px;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info .detail-info .body .concern--hair,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .location .body .concern--hair,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .social-media .body .concern--hair,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .concern .body .concern--hair {
+    max-width: 650px;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info .detail-info .body .concern--body,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .location .body .concern--body,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .social-media .body .concern--body,
+.account .profile--tab-value .nav--profile-tab-value .personal-info .concern .body .concern--body {
+    max-width: 650px;
+}
+
+.account .profile--tab-value .nav--profile-tab-value .personal-info .social-media .body {
+    padding-bottom: 0;
+}
+
+.account .profile--tab-value .nav h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .nav .search-input {
+    font-size: 14px;
+    padding: 14px 11px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    display: flex;
+}
+
+.account .profile--tab-value .nav .search-input input {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    min-width: 211px;
+}
+
+.account .profile--tab-value .nav .search-input input:focus {
+    border: none;
+    outline: none;
+}
+
+.account .profile--tab-value .nav .search-input--container {
+    display: flex;
+}
+
+.account .profile--tab-value .nav .select-input {
+    font-size: 14px;
+    padding: 14px 11px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    min-width: 211px;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.account .profile--tab-value .plan--list {
+    width: 100%;
+}
+
+.account .profile--tab-value .plan--card {
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.account .profile--tab-value .plan--card .top {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.account .profile--tab-value .plan--card .top h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .plan--card .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 48px;
+}
+
+.account .profile--tab-value .plan--card .body img {
+    width: 64px;
+    height: 64px;
+}
+
+.account .profile--tab-value .plan--card .body h6 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.account .profile--tab-value .plan--card .body p {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.account .profile--tab-value .plan--detail .top-table {
+    display: flex;
+    align-items: center;
+}
+
+.account .profile--tab-value .plan--detail .top-table h6 {
+    margin-right: 12px;
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .plan--detail a {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.account .profile--tab-value .plan--detail .dropdown--option .dropdown-menu {
+    border-radius: 10px;
+}
+
+.account .profile--tab-value .plan--detail .dropdown--option .dropdown-menu .dropdown-item {
+    padding: 18px 10px;
+}
+
+.account .profile--tab-value .plan--detail .purchase-table {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.account .profile--tab-value .plan--detail .purchase-table img {
+    width: 64px;
+    height: 64px;
+    margin-right: 8px;
+}
+
+.account .profile--tab-value .plan--detail .purchase-table h5 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.account .profile--tab-value .plan--detail .purchase-table p {
+    font-size: 12px;
+    color: #8d8d8d;
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .plan--detail .purchase-table table td,
+.account .profile--tab-value .plan--detail .purchase-table table th {
+    padding: 14px 32px;
+}
+
+.account .profile--tab-value .plan--detail .purchase-table table td .h-64,
+.account .profile--tab-value .plan--detail .purchase-table table th .h-64 {
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.account .profile--tab-value .plan--detail .purchase-table table thead {
+    background: #f4efe1;
+    border: none;
+}
+
+.account .profile--tab-value .plan--detail .purchase-table table tbody {
+    border: none;
+}
+
+.account .profile--tab-value .plan--detail .purchase-table table tbody tr {
+    background-color: #fffaf1;
+}
+
+.account .profile--tab-value .order--list {
+    width: 100%;
+}
+
+.account .profile--tab-value .order--card {
+    padding: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    position: relative;
+}
+
+.account .profile--tab-value .order--card-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 48px;
+}
+
+.account .profile--tab-value .order--card-item.child .text {
+    width: 65%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.account .profile--tab-value .order--card-item.child .text .product--qty {
+    position: relative;
+    top: 0;
+    left: -2.75rem;
+}
+
+.account .profile--tab-value .order--card-item.child .text .product--total-price {
+    position: relative;
+    top: 0;
+    left: 1.75rem;
+}
+
+.account .profile--tab-value .order--card-item .right-spacer {
+    padding-right: 130px;
+}
+
+.account .profile--tab-value .order--card-item .order-detail.active svg {
+    transform: rotate(180deg);
+}
+
+.account .profile--tab-value .order--card-item .img--multiple {
+    position: relative;
+}
+
+.account .profile--tab-value .order--card-item .img--multiple img:first-child {
+    position: relative;
+    z-index: 99;
+}
+
+.account .profile--tab-value .order--card-item .img--multiple img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -4px;
+    margin: auto 0;
+    width: 54px;
+    height: 54px;
+}
+
+.account .profile--tab-value .order--card-item .img--multiple img:nth-child(3) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -8px;
+    margin: auto 0;
+    width: 48px;
+    height: 48px;
+}
+
+.account .profile--tab-value .order--card-item img {
+    width: 64px;
+    height: 64px;
+}
+
+.account .profile--tab-value .order--card-item h6 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.account .profile--tab-value .order--card-item p {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.account .profile--tab-value .order--card-list {
+    margin-top: 24px;
+    padding-top: 24px;
+    margin-bottom: 75px;
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+    max-height: 280px;
+    overflow: scroll;
+}
+
+.account .profile--tab-value .order--card-collapse .total {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #f4efe1;
+    padding: 30px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.account .profile--tab-value .order--card-collapse .total p {
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .order--card-collapse .total .left {
+    display: flex;
+}
+
+.account .profile--tab-value .order--card-collapse .total .left h6 {
+    margin-right: 9.5rem;
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .order--card-collapse .total .left a {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .card-list {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .card-item {
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .card-item .img--multiple {
+    position: relative;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .card-item .img--multiple img:first-child {
+    position: relative;
+    z-index: 99;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .card-item .img--multiple img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -4px;
+    margin: auto 0;
+    width: 54px;
+    height: 54px;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .card-item .img--multiple img:nth-child(3) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -8px;
+    margin: auto 0;
+    width: 48px;
+    height: 48px;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .card-item img {
+    width: 64px;
+    height: 64px;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .card-item span {
+    font-size: 10px;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .card-item h6 {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .card-item p {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .total {
+    width: 100%;
+    background-color: #f4efe1;
+    padding: 30px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .total p {
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .total .left {
+    display: flex;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .total .left h6 {
+    margin-right: 11rem;
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .order--card-collapse-mobile .total .left a {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.account .profile--tab-value .reward--list {
+    width: 100%;
+}
+
+.account .profile--tab-value .reward--item {
+    padding: 12px;
+    background: #ffe6d8;
+    position: relative;
+    overflow: hidden;
+}
+
+.account .profile--tab-value .reward--item p {
+    margin-bottom: 0;
+    color: #8d8d8d;
+    font-size: 10px;
+}
+
+.account .profile--tab-value .reward--item p strong {
+    color: #000;
+}
+
+.account .profile--tab-value .reward--item .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.account .profile--tab-value .reward--item .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.account .profile--tab-value .reward--item .body h3 {
+    font-family: "Euclid Circular B", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.account .profile--tab-value .reward--item .body h5 {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.account .profile--tab-value .reward--item .body .img {
+    position: absolute;
+    z-index: 0;
+}
+
+.account .profile--tab-value .reward--item .body .img.gold {
+    width: 259px;
+    top: 1rem;
+    right: 0;
+}
+
+.account .profile--tab-value .reward--item .body .img.phone {
+    width: 186px;
+    bottom: 0;
+    right: 3.5rem;
+}
+
+.account .profile--tab-value .reward--item .body .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.account .profile--tab-value .reward--detail .top-table {
+    display: flex;
+    align-items: center;
+}
+
+.account .profile--tab-value .reward--detail .top-table h6 {
+    margin-right: 12px;
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .reward--redeem-detail ol {
+    padding-left: 1rem;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.account .profile--tab-value .reward--redeem-card {
+    padding: 24px;
+    background-color: #fff8f0;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.account .profile--tab-value .reward--redeem-card p {
+    margin-bottom: 0;
+}
+
+.account .profile--tab-value .reward--redeem-card button {
+    text-transform: uppercase;
+}
+
+.account .profile--tab-value .edit--personal-info, .account .profile--tab-value .edit--location, .account .profile--tab-value .edit--social-media, .account .profile--tab-value .edit--address {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 24px;
+}
+
+.account .profile--tab-value .edit--personal-info label, .account .profile--tab-value .edit--location label, .account .profile--tab-value .edit--social-media label, .account .profile--tab-value .edit--address label {
+    font-size: 14px;
+}
+
+.account .profile--tab-value .edit--personal-info h6, .account .profile--tab-value .edit--location h6, .account .profile--tab-value .edit--social-media h6, .account .profile--tab-value .edit--address h6 {
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.account .profile--tab-value .edit--personal-info .form-control,
+.account .profile--tab-value .edit--personal-info .form-select, .account .profile--tab-value .edit--location .form-control,
+.account .profile--tab-value .edit--location .form-select, .account .profile--tab-value .edit--social-media .form-control,
+.account .profile--tab-value .edit--social-media .form-select, .account .profile--tab-value .edit--address .form-control,
+.account .profile--tab-value .edit--address .form-select {
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 13px 11px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.28);
+}
+
+.account .profile--tab-value .edit--personal-info .form-check-input, .account .profile--tab-value .edit--location .form-check-input, .account .profile--tab-value .edit--social-media .form-check-input, .account .profile--tab-value .edit--address .form-check-input {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    margin-right: 8px;
+}
+
+.account .profile--tab-value .edit--personal-info .form-check-input:checked, .account .profile--tab-value .edit--location .form-check-input:checked, .account .profile--tab-value .edit--social-media .form-check-input:checked, .account .profile--tab-value .edit--address .form-check-input:checked {
+    background-color: #42352e;
+    border-color: #42352e;
+}
+
+.account .profile--tab-value .edit--social-media, .account .profile--tab-value .edit--address {
+    border-bottom: none;
+}
+
+.modal .modal-dialog .modal-header {
+    padding: 20px 40px;
+}
+
+.modal--edit-plan .modal-dialog {
+    min-width: 585px;
+}
+
+.modal--edit-plan .modal-dialog .modal-content .modal-body {
+    padding: 20px 40px;
+}
+
+.modal--edit-plan .modal-dialog .modal-content .modal-body .input-wrapper label {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.modal--edit-plan .modal-dialog .modal-content .modal-body .input-wrapper input,
+.modal--edit-plan .modal-dialog .modal-content .modal-body .input-wrapper select {
+    width: 100%;
+    padding: 14px 12px;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.modal--edit-plan .modal-dialog .modal-content .modal-body .input-wrapper select {
+    margin-bottom: 32px;
+}
+
+.modal--remove-plan .modal-dialog {
+    min-width: 585px;
+}
+
+.modal--remove-plan .modal-dialog .modal-content .modal-body {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.modal--remove-plan .modal-dialog .modal-content .modal-body h5 {
+    margin-bottom: 15px;
+}
+
+.modal--remove-plan .modal-dialog .modal-content .modal-body p {
+    color: rgba(0, 0, 0, 0.72);
+    margin-bottom: 32px;
+    padding: 0 4rem;
+}
+
+.modal--detail-order.modal-content .modal-body {
+    padding: 20px 40px;
+}
+
+.modal--detail-order.modal-content .modal-body h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.modal--detail-order.modal-content .modal-body h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.modal--detail-order.modal-content .modal-body p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.modal--detail-order.modal-content .modal-body hr {
+    width: 100%;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+@media (max-width: 1024px) {
+    .account {
+        background: #fff;
+        padding: 32px 12px;
+    }
+
+    .account .btn--primary.cancel {
+        width: 100%;
+    }
+
+    .account .btn--outline-danger {
+        width: 100%;
+    }
+
+    .account .profile--card {
+        margin-bottom: 32px;
+    }
+
+    .account .profile--tabs aside {
+        display: none;
+    }
+
+    .account .profile--tab-value .nav {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .account .profile--tab-value .nav--profile-tabs {
+        flex-direction: row;
+    }
+
+    .account .profile--tab-value .nav--order-input {
+        width: 100%;
+    }
+
+    .account .profile--tab-value .nav .search-input {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .account .profile--tab-value .nav .search-input input {
+        width: 100%;
+    }
+
+    .account .profile--tab-value .nav .search-input--container {
+        width: 100%;
+    }
+
+    .account .profile--tab-value .nav .select-input {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .account .profile--tab-value .plan--detail .purchase-table thead {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    .account .profile--tab-value .plan--detail .purchase-table table td,
+    .account .profile--tab-value .plan--detail .purchase-table table th {
+        padding: 24px 20px;
+    }
+
+    .account .profile--tab-value .plan--detail .purchase-table table thead th.hide-mobile {
+        display: none;
+    }
+
+    .account .profile--tab-value .plan--detail .purchase-table table tbody tr td.hide-mobile {
+        display: none;
+    }
+
+    .account .profile--tab-value .order--card {
+        padding: 20px;
+    }
+
+    .account .profile--tab-value .order--card-item {
+        align-items: flex-start;
+        padding-right: 0;
+    }
+
+    .account .profile--tab-value .order--card-item .order-number {
+        width: 100%;
+    }
+
+    .account .profile--tab-value .order--card-item .order-detail {
+        margin-left: 20px;
+    }
+
+    .account .profile--tab-value .order--card-item .order-detail svg {
+        transform: rotate(-90deg);
+    }
+
+    .account .profile--tab-value .reward--item .body .img.gold {
+        top: 2rem;
+        right: -3rem;
+    }
+
+    .account .profile--tab-value .reward--item .body .img.phone {
+        bottom: -1rem;
+        right: -1.5rem;
+    }
+
+    .account .profile--tab-value .reward--redeem-card {
+        flex-direction: column;
+        margin-bottom: 44px;
+    }
+
+    .account .profile--tab-value .reward--redeem-card button {
+        padding: 13px 33px;
+        max-width: 250px;
+    }
+
+    .modal .modal-dialog {
+        margin: 0;
+        min-width: 100%;
+        max-width: 100%;
+        position: fixed;
+        top: auto;
+        right: auto;
+        left: auto;
+        bottom: 0;
+        min-height: auto;
+    }
+
+    .modal .modal-dialog .modal-header {
+        padding: 16px;
+    }
+
+    .modal--edit-plan .modal-dialog {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .modal--edit-plan .modal-dialog .modal-content .modal-body {
+        padding: 16px;
+    }
+
+    .modal--remove-plan .modal-dialog {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .modal--remove-plan .modal-dialog .modal-content .modal-body {
+        padding: 16px;
+    }
+
+    .modal--detail-order.modal-content .modal-body {
+        padding: 16px;
+    }
+}

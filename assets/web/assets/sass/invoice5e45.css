@@ -1,0 +1,321 @@
+.invoice .btn--outline-primary {
+    padding: 22px 32px;
+    color: #42352E;
+    font-weight: 500;
+    border: 1px solid #42352E;
+    border-radius: 0;
+}
+
+.invoice .btn--primary {
+    padding: 22px 32px;
+    background-color: #42352E;
+    color: #FFF;
+    border-radius: 0;
+}
+
+.invoice .btn--primary:hover {
+    color: #FFF;
+}
+
+.invoice h3 {
+    font-family: "Euclid Circular B", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.invoice p {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.invoice h5 {
+    font-weight: 500;
+    color: #000;
+}
+
+.invoice--product {
+    width: 100%;
+    height: 100%;
+    padding: 80px 0;
+}
+
+.invoice--container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.invoice--container .payment--nav {
+    padding: 40px 0;
+    border-bottom: 1px solid #AAA39A;
+}
+
+.invoice--container .payment--time-limit span {
+    font-weight: 500;
+    font-size: 40px;
+    color: #42352E;
+    margin-bottom: 16px;
+}
+
+.invoice--container .payment--detail {
+    padding: 32px 0;
+    border-bottom: 1px solid #AAA39A;
+}
+
+.invoice--container .payment--detail .detail-row {
+    margin-bottom: 40px;
+}
+
+.invoice--container .payment--detail .detail-row:last-child {
+    margin-bottom: 0;
+}
+
+.invoice--container .payment--detail .payment-method-img {
+    width: 86px;
+    height: 27px;
+}
+
+.invoice--container .payment--method {
+    padding: 40px 0;
+}
+
+.invoice--container .payment--method .method--tabs {
+    width: 100%;
+    border: 1px solid #42352E;
+    margin-bottom: 32px;
+}
+
+.invoice--container .payment--method .method--tabs .tab-button {
+    border-bottom: 1px solid #AAA39A;
+}
+
+.invoice--container .payment--method .method--tab {
+    padding: 42px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.invoice--container .payment--method .method--tab:hover, .invoice--container .payment--method .method--tab.active {
+    border-bottom: 7px solid #42352E;
+}
+
+.invoice--container .payment--method .method--tab-value {
+    padding: 40px 80px;
+}
+
+.invoice--container .payment--method .method--tab-value ol {
+    padding-left: 16px;
+}
+
+.invoice--container .payment--method .method--tab-value ol li {
+    margin-bottom: 12px;
+}
+
+.invoice--container .payment--method .method--tab-value ol li:last-child {
+    margin-bottom: 0;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-header {
+    padding: 24px 40px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-header h5 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-header p {
+    font-size: 14px;
+}
+
+.modal--payment-detail .modal-dialog {
+    min-width: 585px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body {
+    padding: 24px 40px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body h5 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--summary {
+    border-bottom: 1px solid #AAA39A;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #AAA39A;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--total h5 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--total div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--total div span {
+    font-size: 14px;
+    color: #8D8D8D;
+    margin-right: 4px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--total div h4 {
+    margin-bottom: 0;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--items {
+    margin-bottom: 24px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--item .img {
+    margin-right: 12px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--item .img img {
+    width: 64px;
+    height: 64px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--item .img span {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 100%;
+    background-color: #42352E;
+    color: #FFF;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--item .item-detail p {
+    margin-bottom: 0;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--item .price {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.72);
+    margin-bottom: 0;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--shipping-address p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--shipping-address p.address {
+    margin-bottom: 24px;
+}
+
+.modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--shipping-address p span {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1024px) {
+    .invoice h3 {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .invoice p {
+        font-size: 14px;
+    }
+
+    .invoice h5 {
+        font-size: 14px;
+    }
+
+    .invoice button {
+        font-size: 14px;
+    }
+
+    .invoice--product {
+        padding: 0 16px;
+    }
+
+    .invoice--container .payment--nav {
+        padding: 24px 0;
+    }
+
+    .invoice--container .payment--nav p {
+        margin-bottom: 0;
+    }
+
+    .invoice--container .payment--time-limit span {
+        font-size: 24px;
+    }
+
+    .invoice--container .payment--detail {
+        padding: 24px 0;
+    }
+
+    .invoice--container .payment--detail .detail-row {
+        margin-bottom: 20px;
+    }
+
+    .invoice--container .payment--method {
+        padding: 24px 0;
+    }
+
+    .invoice--container .payment--method .method--tab {
+        padding: 42px 22px;
+    }
+
+    .invoice--container .payment--method .method--tab-value {
+        padding: 24px 16px;
+    }
+
+    .modal--payment-detail .modal-dialog {
+        margin: 0;
+        min-width: 100%;
+        max-width: 100%;
+        position: fixed;
+        top: auto;
+        right: auto;
+        left: auto;
+        bottom: 0;
+        min-height: auto;
+    }
+
+    .modal--payment-detail .modal-dialog .modal-content .modal-header {
+        padding: 16px;
+    }
+
+    .modal--payment-detail .modal-dialog {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .modal--payment-detail .modal-dialog .modal-content .modal-body {
+        padding: 16px;
+        padding-bottom: 48px;
+    }
+
+    .modal--payment-detail .modal-dialog .modal-content .modal-body .purchased--total div h4 {
+        margin-right: 10px;
+    }
+}
+
+/*invoice.css*/

@@ -1,0 +1,74 @@
+.search-result .our-products {
+    padding: 40px 60px;
+    background: linear-gradient(180deg, #F8F5EB 0%, rgba(248, 245, 235, 0) 100%);
+}
+
+.search-result .our-products h3 {
+    font-family: "Ogg";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 49px;
+    /* identical to box height */
+    letter-spacing: 0.005em;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.search-result .our-products p {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+.search-result .our-products .product-card {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1024px) {
+    .search-result .our-products {
+        padding: 20px 16px !important;
+    }
+
+    .search-result .our-products .product-card__detail ul li {
+        font-family: "Euclid Circular B";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 11px;
+        text-align: center;
+        color: rgba(89, 88, 84, 0.7);
+    }
+
+    .search-result .our-products .product-card__detail .product--title h5 {
+        font-family: "Euclid Circular B";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 14px;
+        color: #000000;
+    }
+
+    .search-result .our-products .product-card__detail .product--title p {
+        font-family: "Euclid Circular B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #000000;
+    }
+
+    .search-result .our-products .product-card__detail .product--price h5 {
+        font-family: "Euclid Circular B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+
+/*search-result.css*/

@@ -1,0 +1,211 @@
+.about .main--banner {
+    padding: 0;
+    margin: 0;
+}
+
+.about .main--banner > div:nth-child(1) {
+    padding: 0;
+}
+
+.about .main--banner > div:nth-child(1) div {
+    top: 197px;
+    left: 58px;
+}
+
+.about .main--banner > div:nth-child(1) div h1 {
+    font-family: "Ogg";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 110px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    max-width: 576px;
+}
+
+.about .main--banner > div:nth-child(2) {
+    padding: 0;
+}
+
+.about .main--banner > div:nth-child(2) div {
+    top: 197px;
+    left: 49px;
+}
+
+.about .main--banner > div:nth-child(2) div h1 {
+    font-family: "Ogg";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 110px;
+    letter-spacing: 0.005em;
+    max-width: 638px;
+    color: #FFFFFF;
+}
+
+.about .main--banner > div:nth-child(2) div p {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.about .main--banner > div:nth-child(2) div p span {
+    font-weight: 600;
+}
+
+.about .main--banner > div:nth-child(2) div p:nth-child(2) {
+    max-width: 528px;
+}
+
+.about .main--banner > div:nth-child(2) div p:nth-child(3) {
+    max-width: 528px;
+}
+
+.about .main--banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.about .our--vision {
+    padding: 77px 56px;
+}
+
+.about .our--vision h3 {
+    font-family: "Ogg";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 98px;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+.about .our--vision p {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+    max-width: 528px;
+}
+
+.about .our--vision .play {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media (max-width: 1024px) {
+    .about .main--banner {
+        padding: 0;
+        margin: 0;
+    }
+
+    .about .main--banner > div:nth-child(1) {
+        padding: 0;
+    }
+
+    .about .main--banner > div:nth-child(1) div {
+        margin: auto;
+        top: 58px;
+    }
+
+    .about .main--banner > div:nth-child(1) div h1 {
+        font-family: "Ogg";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 49px;
+        letter-spacing: 0.005em;
+        max-width: 279px;
+    }
+
+    .about .main--banner > div:nth-child(2) {
+        padding: 0;
+    }
+
+    .about .main--banner > div:nth-child(2) div {
+        top: 44px;
+    }
+
+    .about .main--banner > div:nth-child(2) div h1 {
+        font-family: "Ogg";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 49px;
+        letter-spacing: 0.005em;
+        max-width: 279px;
+    }
+
+    .about .main--banner > div:nth-child(2) div p {
+        font-family: "Euclid Circular B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        color: rgba(255, 255, 255, 0.85);
+    }
+
+    .about .main--banner > div:nth-child(2) div p span {
+        font-weight: 600;
+    }
+
+    .about .main--banner > div:nth-child(2) div p:nth-child(2) {
+        max-width: 250.15px;
+    }
+
+    .about .main--banner > div:nth-child(2) div p:nth-child(3) {
+        max-width: 305px;
+    }
+
+    .about .main--banner img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about .our--vision {
+        padding: 32.19px 18px;
+        background-color: #FFFFFF;
+    }
+
+    .about .our--vision h3 {
+        font-family: "Ogg";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 37px;
+        letter-spacing: 0.005em;
+        color: #000000;
+    }
+
+    .about .our--vision p {
+        font-family: "Euclid Circular B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        color: #000000;
+    }
+
+    .about .our--vision .play {
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1366px) {
+    .about .main--banner > div:nth-child(1) div h1,
+    .about .main--banner > div:nth-child(2) div h1 {
+        line-height: 49px;
+    }
+}

@@ -1,0 +1,650 @@
+.stores {
+    min-height: 100vh;
+    background: url("../images/auth-background.png"), linear-gradient(180deg, #FFFCF9 0%, rgba(255, 252, 249, 0) 100%, rgba(255, 252, 249, 0) 100%);
+    background-repeat: no-repeat;
+}
+
+.stores .official-store h3 {
+    font-family: "Ogg";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 110px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.stores .official-store p {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+.stores .official-store .official-store--list {
+    padding: 0px 60px;
+}
+
+.stores .official-store .official-store--list > div > div {
+    border: 1px solid rgba(100, 62, 41, 0.5);
+    text-align: center;
+    padding: 70px 53px;
+    height: 266px;
+}
+
+.stores .official-store .official-store--list > div > div .btn--primary {
+    padding: 22px 32px;
+    background-color: #42352E;
+    color: #FFF;
+    border-radius: 0;
+    display: none;
+    width: 100%;
+    margin-top: 17.25px;
+}
+
+.stores .official-store .official-store--list > div > div:hover {
+    padding: 32px 50px 26px 50px;
+}
+
+.stores .official-store .official-store--list > div > div:hover .btn--primary {
+    display: block;
+}
+
+.stores .official-store .find-out {
+    margin-top: 64px;
+}
+
+.stores .official-store .find-out > div {
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+}
+
+.stores .official-store .find-out > div h3 {
+    font-family: "Ogg";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 122px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.stores .official-store .find-out > div p {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.72;
+}
+
+.stores .official-store .find-out > div > div {
+    margin: 76px auto 0 auto;
+    width: 613.41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stores .official-store .find-out > div > div a {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.stores .official-store .find-out > div > div a svg {
+    margin-left: 12px;
+}
+
+.stores .official-store .maps {
+    padding: 121px 61px;
+}
+
+.stores .official-store .maps .maps--left {
+    padding-top: 15px;
+    padding-right: 56px;
+    border-right: 1px solid #000000;
+}
+
+.stores .official-store .maps .maps--left .input__search-maps div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    border: 1px solid #000000;
+    height: 60px;
+    margin-bottom: 32px;
+}
+
+.stores .official-store .maps .maps--left .input__search-maps div input {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    width: 100%;
+}
+
+.stores .official-store .maps .maps--left .input__search-maps div input:focus {
+    outline: none;
+}
+
+.stores .official-store .maps .maps--left iframe {
+    width: 100%;
+    height: 440px;
+}
+
+.stores .official-store .maps .maps--right {
+    padding-left: 55px;
+}
+
+.stores .official-store .maps .maps--right > div {
+    padding-bottom: 22px;
+    border-bottom: 1px solid #42352E;
+}
+
+.stores .official-store .maps .maps--right > div .province div {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #42352E;
+}
+
+.stores .official-store .maps .maps--right > div .province div:nth-child(2) {
+    font-weight: 400;
+}
+
+.stores .official-store .maps .maps--right > div .address div {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #42352E;
+}
+
+.stores .official-store .maps .maps--right > div .icon {
+    width: 68px;
+    margin-top: 8px;
+}
+
+.stores .official-store .maps .maps--right > div .icon > div:nth-child(2) {
+    margin-top: 8px;
+}
+
+.stores .official-store .maps .maps--right > div .icon > div:nth-child(2) svg:nth-child(2) {
+    margin-left: 8px;
+}
+
+.stores .official-store .maps .maps--right > div:not(:nth-child(1)) {
+    padding-top: 24px;
+}
+
+.stores .about-tbb h3 {
+    font-family: "Ogg";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 110px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.stores .about-tbb .content {
+    padding: 41px 60px;
+}
+
+.stores .about-tbb .content .content--left {
+    width: 264px;
+    padding-right: 0;
+}
+
+.stores .about-tbb .content .content--left ul {
+    border-right: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+.stores .about-tbb .content .content--left ul li {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #42352E;
+    opacity: 0.72;
+}
+
+.stores .about-tbb .content .content--left ul li:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.stores .about-tbb .content .content--left ul li.active {
+    opacity: 1;
+}
+
+.stores .about-tbb .content .content--right {
+    width: calc(100vw - 375px);
+    padding-left: 40px;
+}
+
+.stores .about-tbb .content .content--right p {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #42352E;
+}
+
+.stores .about-tbb .content .content--right h6 {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #42352E;
+}
+
+.stores .about-tbb .content .content--right h6:not(:nth-child(1)) {
+    margin-top: 28px;
+}
+
+.stores .about-tbb .content .content--right ul li {
+    margin-left: 30px;
+    list-style-type: disc;
+}
+
+.stores .about-tbb .content .content--right ul li:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.stores .about-tbb .reward {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 80px;
+    padding-right: 60px;
+}
+
+.stores .about-tbb .reward > div {
+    width: calc(100vw - 429px);
+}
+
+.stores .about-tbb .reward > div h4 {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #42352E;
+    margin-bottom: 32px;
+}
+
+.stores .about-tbb .reward > div > div > div > div {
+    background: #FFE6D8;
+    height: 196px;
+    padding: 12px;
+}
+
+.stores .about-tbb .reward > div > div > div > div svg {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 100;
+}
+
+.stores .about-tbb .reward > div > div > div > div img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.stores .about-tbb .reward > div > div > div > div .phone {
+    right: 41px;
+}
+
+.stores .about-tbb .reward > div > div > div > div .reward--box {
+    width: 126px;
+    height: 28px;
+    left: 12px;
+    top: 12px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 6px 8px 7px 9px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.stores .about-tbb .reward > div > div > div > div .reward--redeem {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #8D8D8D;
+    padding-top: 8px;
+}
+
+.stores .about-tbb .reward > div > div > div > div .reward--redeem span {
+    font-weight: 500;
+    color: #000000;
+}
+
+.stores .about-tbb .reward > div > div > div > div .item {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 0;
+    color: #000000;
+}
+
+.stores .about-tbb .reward > div > div > div > div .type {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+.stores .about-tbb .reward > div > div > div > div p {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #8D8D8D;
+    margin-bottom: 0;
+}
+
+.stores .about-tbb .reward > div > div > div > div h6 {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.stores .about-tbb .faq {
+    padding: 41px 60px;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #F4EFE1;
+}
+
+.stores .about-tbb .faq > div > div {
+    margin-bottom: 80px;
+}
+
+.stores .about-tbb .faq > div > div h6 {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #42352E;
+}
+
+.stores .about-tbb .faq > div > div p {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #42352E;
+    margin-bottom: 0;
+}
+
+.stores .about-tbb .faq > div > div a {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #42352E;
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .stores .about-tbb h3 {
+        font-family: "Ogg";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 37px;
+        letter-spacing: 0.005em;
+        text-align: left;
+        color: #000000;
+        margin-bottom: 0;
+        padding: 0px 18px 12px 18px;
+    }
+
+    .stores .about-tbb .content {
+        padding: 0px 16px;
+        margin-top: 0;
+    }
+
+    .stores .about-tbb .content .content--left {
+        width: 100%;
+        padding: 0px 16px;
+    }
+
+    .stores .about-tbb .content .content--left ul {
+        border-right: 0px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+        padding-bottom: 24px;
+    }
+
+    .stores .about-tbb .content .content--left ul li {
+        font-size: 16px;
+    }
+
+    .stores .about-tbb .content .content--right {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .stores .about-tbb .content .content--right h6 {
+        margin-bottom: 0;
+    }
+
+    .stores .about-tbb .content .content--right p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .stores .about-tbb .reward {
+        display: block;
+        margin: 0;
+        padding: 0px 16px;
+    }
+
+    .stores .about-tbb .reward > div {
+        width: 100%;
+    }
+
+    .stores .about-tbb .reward > div > div > div > div {
+        overflow: hidden;
+    }
+
+    .stores .about-tbb .reward > div > div > div > div img {
+        width: 223px;
+        right: -38px;
+    }
+
+    .stores .about-tbb .reward > div > div > div > div .phone {
+        width: 168px;
+        right: -40px;
+    }
+
+    .stores .about-tbb .reward > div > div > div > div:nth-child(1) {
+        margin-bottom: 16px;
+    }
+
+    .stores .about-tbb .faq {
+        padding: 16px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .stores .about-tbb .faq > div {
+        padding: 0;
+    }
+
+    .stores .about-tbb .faq > div > div {
+        margin-bottom: 20px;
+    }
+
+    .stores .about-tbb .faq > div > div h6 {
+        margin-bottom: 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .stores .about-tbb .faq > div > div p {
+        margin-bottom: 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .stores .about-tbb .faq > div > div a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .stores .official-store h3 {
+        font-family: "Ogg";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 37px;
+        letter-spacing: 0.005em;
+        text-align: left;
+        color: #000000;
+        padding: 0px 16px;
+    }
+
+    .stores .official-store p {
+        font-family: "Euclid Circular B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        color: #000000;
+        padding: 0px 16px;
+    }
+
+    .stores .official-store .official-store--list {
+        padding: 0px 16px;
+    }
+
+    .stores .official-store .official-store--list > div > div {
+        padding: 12px 8px;
+        height: 109px;
+    }
+
+    .stores .official-store .official-store--list > div > div img {
+        width: 111px;
+        height: 44.61px;
+    }
+
+    .stores .official-store .official-store--list > div > div .btn--primary {
+        display: block;
+        padding: 7.5px 48px;
+        font-family: "Euclid Circular B";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 10px;
+        text-align: center;
+        color: #F6F3EA;
+    }
+
+    .stores .official-store .find-out > div h3 {
+        font-family: "Ogg";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 37px;
+        letter-spacing: 0.005em;
+        color: #FFFFFF;
+    }
+
+    .stores .official-store .find-out > div p {
+        font-family: "Euclid Circular B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .stores .official-store .find-out > div > div {
+        margin: 21px 16px;
+        width: 100%;
+        display: block;
+    }
+
+    .stores .official-store .maps {
+        padding: 41px 16px;
+        background-color: #FFFFFF;
+    }
+
+    .stores .official-store .maps .maps--left {
+        padding: 16px;
+    }
+
+    .stores .official-store .maps .maps--left iframe {
+        aspect-ratio: 1;
+        height: auto;
+    }
+
+    .stores .official-store .maps .maps--right {
+        padding: 16px;
+    }
+
+    .stores .official-store .maps .maps--right > div .province div {
+        font-family: "Euclid Circular B";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+        color: #42352E;
+    }
+
+    .stores .official-store .maps .maps--right > div .province div:nth-child(2) {
+        font-weight: 400;
+    }
+}
+
+/*stores.css*/

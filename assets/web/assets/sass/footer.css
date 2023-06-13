@@ -1,0 +1,285 @@
+.return-policy, .privacy-policy, .faq, .how-it-works {
+    padding: 38px 172px 0 172px;
+    position: relative;
+}
+
+.return-policy h1, .privacy-policy h1, .faq h1, .how-it-works h1 {
+    font-size: 72px;
+    letter-spacing: 0.5%;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 130%;
+}
+
+.return-policy h5, .privacy-policy h5, .faq h5, .how-it-works h5 {
+    font-weight: 500;
+}
+
+.return-policy p, .return-policy h5, .privacy-policy p, .privacy-policy h5, .faq p, .faq h5, .how-it-works p, .how-it-works h5 {
+    font-size: 20px;
+    color: #42352E;
+}
+
+.return-policy .ellipse, .privacy-policy .ellipse, .faq .ellipse, .how-it-works .ellipse {
+    position: absolute;
+    border-radius: 100%;
+    z-index: -1;
+    filter: blur(94px);
+}
+
+.return-policy .ellipse--1, .privacy-policy .ellipse--1, .faq .ellipse--1, .how-it-works .ellipse--1 {
+    top: 0;
+    left: 0;
+    width: 461px;
+    height: 461px;
+    background-color: rgba(100, 63, 41, 0.11);
+}
+
+.return-policy .ellipse--2, .privacy-policy .ellipse--2, .faq .ellipse--2, .how-it-works .ellipse--2 {
+    top: 100px;
+    right: 575px;
+    width: 284px;
+    height: 284px;
+    background-color: #F5F5F5;
+}
+
+.return-policy .ellipse--3, .privacy-policy .ellipse--3, .faq .ellipse--3, .how-it-works .ellipse--3 {
+    top: 150px;
+    right: 175px;
+    width: 379px;
+    height: 379px;
+    background-color: rgba(100, 63, 41, 0.15);
+}
+
+.return-policy--tabs, .privacy-policy--tabs, .faq--tabs, .how-it-works--tabs {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.return-policy--tabs .tab-button, .privacy-policy--tabs .tab-button, .faq--tabs .tab-button, .how-it-works--tabs .tab-button {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.return-policy--tab, .privacy-policy--tab, .faq--tab, .how-it-works--tab {
+    padding: 32px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.return-policy--tab:hover, .return-policy--tab.active, .privacy-policy--tab:hover, .privacy-policy--tab.active, .faq--tab:hover, .faq--tab.active, .how-it-works--tab:hover, .how-it-works--tab.active {
+    border-bottom: 7px solid #42352E;
+}
+
+.return-policy--tab-value, .privacy-policy--tab-value, .faq--tab-value, .how-it-works--tab-value {
+    margin-top: 40px;
+}
+
+.return-policy--tab-value ol, .privacy-policy--tab-value ol, .faq--tab-value ol, .how-it-works--tab-value ol {
+    padding-left: 16px;
+}
+
+.return-policy--tab-value ol li, .privacy-policy--tab-value ol li, .faq--tab-value ol li, .how-it-works--tab-value ol li {
+    margin-bottom: 12px;
+}
+
+.return-policy--tab-value ol li:last-child, .privacy-policy--tab-value ol li:last-child, .faq--tab-value ol li:last-child, .how-it-works--tab-value ol li:last-child {
+    margin-bottom: 0;
+}
+
+.how-it-works {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.how-it-works .landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.how-it-works .landing p {
+    padding: 0 12rem;
+    text-align: center;
+}
+
+.how-it-works .landing img {
+    margin-left: -40px;
+    width: 686px;
+    height: 485px;
+}
+
+.how-it-works .how--card {
+    background-color: #FAF4E6;
+    padding: 72px 62px;
+    text-align: center;
+}
+
+.how-it-works .how--card .desc {
+    padding: 0 100px;
+    margin-bottom: 24px;
+}
+
+.how-it-works .how--item {
+    padding: 0 100px;
+}
+
+.how-it-works .how--item img {
+    margin-bottom: 40px;
+}
+
+.how-it-works .how--item img.club {
+    width: 286px;
+    height: 303px;
+}
+
+.how-it-works .how--item img.stock {
+    width: 369px;
+    height: 303px;
+}
+
+.how-it-works .how--item img.commitment {
+    width: 201px;
+    height: 303px;
+}
+
+.how-it-works .how--item img.schedule {
+    width: 303px;
+    height: 303px;
+}
+
+.how-it-works .join {
+    text-align: center;
+    padding: 44px 0;
+}
+
+.how-it-works .join h2 {
+    font-size: 40px;
+    margin-bottom: 44px;
+    line-height: 150%;
+}
+
+.how-it-works .join p {
+    margin-bottom: 44px;
+}
+
+.how-it-works .join .btn--outline-primary {
+    padding: 22px 111px;
+    color: #42352E;
+    font-weight: 500;
+    border: 1px solid #42352E;
+    border-radius: 0;
+}
+
+@media (max-width: 1024px) {
+    .faq h1 {
+        padding: 24px 16px;
+    }
+
+    .faq {
+        padding: 0;
+    }
+
+    .return-policy .ellipse--3, .privacy-policy .ellipse--3, .faq .ellipse--3, .how-it-works .ellipse--3 {
+        width: 191px;
+        height: 191px;
+        top: 200px;
+        right: 0;
+    }
+
+    .return-policy .ellipse--2, .privacy-policy .ellipse--2, .faq .ellipse--2, .how-it-works .ellipse--2 {
+        display: none;
+    }
+
+    .return-policy .ellipse--1, .privacy-policy .ellipse--1, .faq .ellipse--1, .how-it-works .ellipse--1 {
+        width: 191px;
+        height: 191px;
+    }
+
+    .return-policy p, .return-policy h5, .privacy-policy p, .privacy-policy h5, .faq p, .faq h5, .how-it-works p, .how-it-works h5 {
+        font-size: 16px;
+    }
+
+    .return-policy h1, .privacy-policy h1, .faq h1, .how-it-works h1 {
+        font-size: 24px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+    .return-policy, .privacy-policy, .faq, .how-it-works {
+        padding: 24px 16px;
+    }
+
+    .return-policy--tab, .privacy-policy--tab, .faq--tab, .how-it-works--tab {
+        padding: 16px;
+    }
+
+    .return-policy--tab-value, .privacy-policy--tab-value, .faq--tab-value, .how-it-works--tab-value {
+        margin-top: 24px;
+        padding: 0 16px;
+    }
+
+    .how-it-works .landing {
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 24px 12px;
+    }
+
+    .how-it-works .landing p {
+        padding: 0;
+        text-align: left;
+    }
+
+    .how-it-works .landing img {
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .how-it-works .how--card {
+        padding: 20px 16px;
+    }
+
+    .how-it-works .how--card .desc {
+        padding: 0;
+        margin-bottom: 16px;
+    }
+
+    .how-it-works .how--item {
+        padding: 0 75px;
+    }
+
+    .how-it-works .how--item img.stock {
+        width: 216px;
+        height: 177px;
+    }
+
+    .how-it-works .how--item img.commitment {
+        width: 168px;
+        height: 232px;
+    }
+
+    .how-it-works .how--item img.schedule {
+        width: 168px;
+        height: 168px;
+    }
+
+    .how-it-works .join {
+        padding: 44px;
+    }
+
+    .how-it-works .join h2 {
+        font-size: 32px;
+    }
+
+    .how-it-works .join p {
+        font-size: 20px;
+    }
+
+    .how-it-works .join .btn--outline-primary {
+        width: 100%;
+    }
+}
+
+/*footer.css*/

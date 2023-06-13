@@ -1,0 +1,97 @@
+.auth .form {
+    width: 645px;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.auth .form .title {
+    margin-bottom: 32px;
+}
+
+.auth .form .title h3 {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.005em;
+    color: #42352E;
+    text-align: center;
+}
+
+.auth .form .content input:not([type=checkbox]) {
+    border: 1px solid #42352E;
+    height: 64px;
+    background-color: transparent;
+    border-radius: 0px;
+}
+
+.auth .form .content input::-moz-placeholder {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.auth .form .content input:-ms-input-placeholder {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.auth .form .content input::placeholder {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.auth .form .content .form-check {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #42352E;
+}
+
+.auth .form .content .form-check input[type=checkbox] {
+    border: 1px solid #000000;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.auth .form .content .form-check .tnc {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.auth .form .content .btn--primary {
+    width: 100%;
+    padding: 22px 127px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFF;
+    background-color: #42352E;
+    margin-bottom: 143px;
+}
+
+@media (max-width: 1024px) {
+    .auth {
+        height: calc(100vh - 130px);
+        display: flex;
+        align-items: center;
+    }
+
+    .auth .form {
+        width: 100%;
+        padding: 18px 16px 20px 16px;
+    }
+}
